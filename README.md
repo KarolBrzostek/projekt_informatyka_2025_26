@@ -1,2 +1,3 @@
-Karol Brzostek \n
+Karol Brzostek
+
 Projekt testowy na pierwszym laboratorium.
