@@ -1,0 +1,21 @@
+﻿  main.cpp
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,60): warning C4244:         with
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,60): warning C4244:         [
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,60): warning C4244:             T=float
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,60): warning C4244:         ]
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,43): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,43): warning C4244:         with
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,43): warning C4244:         [
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,43): warning C4244:             T=float
+C:\Users\karol\source\repos\PilkaRuchoma\PilkaRuchoma\Paletka.h(22,43): warning C4244:         ]
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+  Trwa generowanie kodu
+  25 of 86 functions (29.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  PilkaRuchoma.vcxproj -> C:\Users\karol\source\repos\PilkaRuchoma\x64\Release\PilkaRuchoma.exe
