@@ -3,21 +3,21 @@
 #include <iostream>
 #include <algorithm>
 #include <SFML/Graphics.hpp>
-#include "Paletka.h"
+#include "paletka.h"
 
-class Pilka
+class Pilka :public sf::CircleShape
 {
 public:
 	Pilka(sf::Vector2f startPos, float radius, sf::Vector2f vel);
-	void draw(sf::RenderTarget &window);
-	void ruch(sf::Time dt, sf::Vector2f windowWidth, Paletka& pal1);
+	void draw(sf::RenderTarget& window);
+	void ruch(sf::Time dt, sf::Vector2f windowWidth, Paletka& pal1, sf::Vector2f startPos);
+	void odbijX();
+	void odbijY();
+	sf::FloatRect getBounds() const;
 private:
 	sf::Vector2f startPos;
 	sf::CircleShape pilka;
 	sf::Vector2f velocity{ 300.f,300.f };
-	sf::Clock zegarOpoznienia;
-	bool opoznienieAktywne = false;
-	const float CZAS_OPOZNIENIA = 2.0f;
 };
 
 Pilka::Pilka(sf::Vector2f startPos, float radius, sf::Vector2f vel)
@@ -29,44 +29,33 @@ Pilka::Pilka(sf::Vector2f startPos, float radius, sf::Vector2f vel)
 	pilka.setOrigin(sf::Vector2f({ radius, radius }));
 }
 
-void Pilka::draw(sf::RenderTarget &window)
+void Pilka::draw(sf::RenderTarget& window)
 {
 	window.draw(pilka);
 }
 
 
-void Pilka::ruch(sf::Time dt, sf::Vector2f windowWidth, Paletka& pal1)
+void Pilka::ruch(sf::Time dt, sf::Vector2f windowWidth, Paletka& pal1, sf::Vector2f startPos)
 {
-	if (opoznienieAktywne)
-	{
-		if (zegarOpoznienia.getElapsedTime().asSeconds() >= CZAS_OPOZNIENIA)
-		{
-			pilka.setPosition({400,300});
-			velocity.x = 100.f;
-			velocity.y = 100.f;
-			opoznienieAktywne = false;
-		}
-		else { return; }
-	}
 
 	pilka.move(sf::Vector2f({ velocity.x * dt.asSeconds(),velocity.y * dt.asSeconds() }));
 
 	if (pilka.getPosition().x - pilka.getRadius() < 0 || pilka.getPosition().x + pilka.getRadius() > windowWidth.x)
 	{
-		velocity.x = -velocity.x;
+		odbijX();
 	}
 	if (pilka.getPosition().y - pilka.getRadius() < 0)
 	{
-		velocity.y = -velocity.y;
+		odbijY();
 	}
 	//kolizja z paletka
 
 	sf::FloatRect granicePaletki = pal1.getBounds();
 	sf::FloatRect granicePilki = pilka.getGlobalBounds();
 
-	if (granicePilki.findIntersection(granicePaletki))
+	if (granicePilki.intersects(granicePaletki))
 	{
-		velocity.y = -velocity.y;
+		odbijY();
 	}
 
 	if (pilka.getPosition().y + pilka.getRadius() > windowWidth.y)
@@ -74,7 +63,25 @@ void Pilka::ruch(sf::Time dt, sf::Vector2f windowWidth, Paletka& pal1)
 		velocity.x = 0;
 		velocity.y = 0;
 
-		zegarOpoznienia.restart();
-		opoznienieAktywne = true;
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::R))
+		{
+			pilka.setPosition(startPos);
+			velocity.x = 100.f;
+			velocity.y = 100.f;
+		}
 	}
+}
+void Pilka::odbijX()
+{
+	velocity.x = -velocity.x;
+}
+
+void Pilka::odbijY()
+{
+	velocity.y = -velocity.y;
+}
+
+sf::FloatRect Pilka::getBounds() const
+{
+	return pilka.getGlobalBounds();
 }
