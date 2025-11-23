@@ -3,7 +3,7 @@
 #include <iostream>
 #include <algorithm>
 #include <SFML/Graphics.hpp>
-#include "paletka.h"
+#include "Paletka.h"
 
 class Pilka :public sf::CircleShape
 {

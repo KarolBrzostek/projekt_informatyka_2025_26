@@ -127,13 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gra.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bloki.h" />
-    <ClInclude Include="cegla.h" />
-    <ClInclude Include="paletka.h" />
-    <ClInclude Include="pilka.h" />
+    <ClInclude Include="Bloki.h" />
+    <ClInclude Include="Cegla.h" />
+    <ClInclude Include="Gra.h" />
+    <ClInclude Include="Paletka.h" />
+    <ClInclude Include="Pilka.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

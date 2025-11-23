@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\",
+  "WorkspaceRootPath": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\bloki.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\bloki.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\gra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\gra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\paletka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\paletka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\pilka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\pilka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\cegla.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Gra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\Gra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\paletka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\paletka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\bloki.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\bloki.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\pilka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\pilka.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\cegla.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B0AAEE5-144D-4F99-9448-C1FFD5A4FB23}|PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6.vcxproj|solutionrelative:PilkaRuchomaSFML2.6\\cegla.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -35,63 +43,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "bloki.h",
-              "DocumentMoniker": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\bloki.h",
-              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\bloki.h",
-              "ToolTip": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\bloki.h",
-              "RelativeToolTip": "PilkaRuchomaSFML2.6\\bloki.h",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Title": "gra.cpp",
+              "DocumentMoniker": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\gra.cpp",
+              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\gra.cpp",
+              "ToolTip": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\gra.cpp",
+              "RelativeToolTip": "PilkaRuchomaSFML2.6\\gra.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-23T11:40:11.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gra.h",
+              "DocumentMoniker": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Gra.h",
+              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\Gra.h",
+              "ToolTip": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Gra.h",
+              "RelativeToolTip": "PilkaRuchomaSFML2.6\\Gra.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-16T20:02:12.172Z",
+              "WhenOpened": "2025-11-23T11:39:43.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "cegla.h",
-              "DocumentMoniker": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\cegla.h",
-              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\cegla.h",
-              "ToolTip": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\cegla.h",
-              "RelativeToolTip": "PilkaRuchomaSFML2.6\\cegla.h",
+              "Title": "Bloki.h",
+              "DocumentMoniker": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Bloki.h",
+              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\Bloki.h",
+              "ToolTip": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Bloki.h",
+              "RelativeToolTip": "PilkaRuchomaSFML2.6\\Bloki.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-16T20:02:12.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cegla.h",
+              "DocumentMoniker": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Cegla.h",
+              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\Cegla.h",
+              "ToolTip": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Cegla.h",
+              "RelativeToolTip": "PilkaRuchomaSFML2.6\\Cegla.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-16T20:02:05.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "paletka.h",
-              "DocumentMoniker": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\paletka.h",
-              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\paletka.h",
-              "ToolTip": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\paletka.h",
-              "RelativeToolTip": "PilkaRuchomaSFML2.6\\paletka.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Paletka.h",
+              "DocumentMoniker": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Paletka.h",
+              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\Paletka.h",
+              "ToolTip": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Paletka.h",
+              "RelativeToolTip": "PilkaRuchomaSFML2.6\\Paletka.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-09T17:30:06.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "pilka.h",
-              "DocumentMoniker": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\pilka.h",
-              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\pilka.h",
-              "ToolTip": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\pilka.h",
-              "RelativeToolTip": "PilkaRuchomaSFML2.6\\pilka.h",
+              "DocumentIndex": 5,
+              "Title": "Pilka.h",
+              "DocumentMoniker": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Pilka.h",
+              "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\Pilka.h",
+              "ToolTip": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\Pilka.h",
+              "RelativeToolTip": "PilkaRuchomaSFML2.6\\Pilka.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-09T17:29:59.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\main.cpp",
               "RelativeDocumentMoniker": "PilkaRuchomaSFML2.6\\main.cpp",
-              "ToolTip": "C:\\Users\\karol\\Desktop\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\main.cpp",
+              "ToolTip": "C:\\Users\\karol\\source\\repos\\PilkaRuchomaSFML2.6\\PilkaRuchomaSFML2.6\\main.cpp",
               "RelativeToolTip": "PilkaRuchomaSFML2.6\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-09T17:26:28.479Z"
+              "WhenOpened": "2025-11-09T17:26:28.479Z",
+              "EditorCaption": ""
             }
           ]
         }

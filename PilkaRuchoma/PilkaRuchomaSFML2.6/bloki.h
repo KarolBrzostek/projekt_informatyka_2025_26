@@ -5,9 +5,9 @@
 #include <vector>
 #include <algorithm>
 
-#include "paletka.h"
-#include "pilka.h"
-#include "cegla.h"
+#include "Paletka.h"
+#include "Pilka.h"
+#include "Cegla.h"
 
 class Bloki
 {
