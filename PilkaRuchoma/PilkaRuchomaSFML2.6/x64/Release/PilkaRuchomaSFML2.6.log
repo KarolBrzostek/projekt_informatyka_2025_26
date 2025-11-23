@@ -1,41 +1,42 @@
 ﻿  gra.cpp
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:         with
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:         [
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:             T=float
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:         ]
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:         with
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:         [
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:             T=float
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,60): warning C4244:         ]
   (kompilowanie pliku źródłowego „gra.cpp”)
   
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:         with
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:         [
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:             T=float
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:         ]
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244: "argument": konwersja z "double" do "T", możliwa utrata danych
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:         with
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:         [
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:             T=float
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Paletka.h(22,43): warning C4244:         ]
   (kompilowanie pliku źródłowego „gra.cpp”)
   
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Bloki.h(86,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Bloki.h(86,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
   (kompilowanie pliku źródłowego „gra.cpp”)
   
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Gra.h(44,28): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Gra.h(44,28): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
   (kompilowanie pliku źródłowego „gra.cpp”)
   
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\Gra.h(44,17): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\Gra.h(44,17): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
   (kompilowanie pliku źródłowego „gra.cpp”)
   
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,48): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,48): warning C4244:         with
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,48): warning C4244:         [
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,48): warning C4244:             T=unsigned int
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,48): warning C4244:         ]
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,28): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,28): warning C4244:         with
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,28): warning C4244:         [
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,28): warning C4244:             T=unsigned int
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(129,28): warning C4244:         ]
-C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\PilkaRuchomaSFML2.6\gra.cpp(168,21): warning C4553: „==”: Wynik wyrażenia nie jest używany; czy chodziło Ci o „=”?
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,48): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,48): warning C4244:         with
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,48): warning C4244:         [
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,48): warning C4244:             T=unsigned int
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,48): warning C4244:         ]
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,28): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,28): warning C4244:         with
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,28): warning C4244:         [
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,28): warning C4244:             T=unsigned int
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(19,28): warning C4244:         ]
+C:\Users\karol\Desktop\PilkaRuchoma\PilkaRuchomaSFML2.6\gra.cpp(58,21): warning C4553: „==”: Wynik wyrażenia nie jest używany; czy chodziło Ci o „=”?
+  main.cpp
   Trwa generowanie kodu
-  1 of 276 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  267 of 276 functions (96.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
-  PilkaRuchomaSFML2.6.vcxproj -> C:\Users\karol\source\repos\PilkaRuchomaSFML2.6\x64\Release\PilkaRuchomaSFML2.6.exe
+  PilkaRuchomaSFML2.6.vcxproj -> C:\Users\karol\Desktop\PilkaRuchoma\x64\Release\PilkaRuchomaSFML2.6.exe
