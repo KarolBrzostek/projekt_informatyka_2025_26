@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(1,10): error C1083: Nie można otworzyć pliku dołącz: 'SFML/Graphics.hpp': No such file or directory
