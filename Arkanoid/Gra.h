@@ -48,7 +48,7 @@ public:
 
 	void update(sf::Time dt);
 	void render(sf::RenderWindow& target);
-	void reset();
+	void reset(bool pokazKomunikatResetu);
 
 	const Paletka& getPaletka() const { return m_paletka; };
 	const Pilka& getPilka() const { return m_pilka; };
@@ -64,6 +64,8 @@ public:
 	void przelaczPauze();
 	bool potwierdzWyjscie();
 	bool getKoniec() { return koniec; };
+
+	void startNowejGry();
 
 };
 
@@ -109,7 +111,7 @@ void Gra::update(sf::Time dt)
 
 			if (sf::Keyboard::isKeyPressed(sf::Keyboard::R))
 			{
-				reset();
+				reset(true);
 
 				m_hud.ustawZycia(3);
 			}
@@ -133,7 +135,7 @@ void Gra::update(sf::Time dt)
 
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::R))
 		{
-			reset();
+			reset(true);
 			return;
 		}
 
@@ -156,7 +158,7 @@ void Gra::render(sf::RenderWindow& target)
 
 }
 
-void Gra::reset()
+void Gra::reset(bool pokazKomunikatResetu)
 {
 	zycia = 3;
 	m_hud.ustawZycia(zycia);
@@ -173,7 +175,11 @@ void Gra::reset()
 
 	m_bloki = Bloki(LICZBA_KOLUMN, LICZBA_WIERSZY, SZEROKOSC, WYSOKOSC);
 
-	m_hud.komunikatResetu();
+	if (pokazKomunikatResetu)
+	{
+		m_hud.komunikatResetu();
+	}
+
 	m_pilka.opoznienieRuchu();
 }
 
@@ -239,4 +245,11 @@ bool Gra::potwierdzWyjscie()
 		return true;
 	}
 	return false;
+}
+
+void Gra::startNowejGry()
+{
+	reset(false);
+	m_pilka.opoznienieRuchu();
+	m_hud.komunikatNowejGry();
 }

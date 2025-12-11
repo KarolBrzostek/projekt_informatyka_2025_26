@@ -12,7 +12,7 @@ public:
 	void komunikatPorazki();
 	void komunikatResetu();
 	void komunikatWygranej();
-
+	void komunikatNowejGry();
 
 	void update();
 	void draw(sf::RenderTarget& window);
@@ -102,12 +102,17 @@ void HUD::komunikatPorazki()
 
 void HUD::komunikatResetu()
 {
-	pokazKomunikat("Zresetowano gre.", sf::Color::Red);
+	pokazKomunikat("Zresetowano gre.", sf::Color::Yellow);
 }
 
 void HUD::komunikatWygranej()
 {
 	pokazKomunikat("Wygrales! Wszystkie bloki zniszczone!", sf::Color::Green);
+}
+
+void HUD::komunikatNowejGry()
+{
+	pokazKomunikat("Rozpoczeto nowa gre.", sf::Color::Yellow);
 }
 
 void HUD::update()

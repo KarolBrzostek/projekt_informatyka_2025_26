@@ -54,6 +54,7 @@ int main()
 
 						if (selected == 0)
 						{
+							gra.startNowejGry();
 							currentstate = GameState::Playing;
 						}
 						else if (selected == 1)
@@ -93,7 +94,7 @@ int main()
 						if (gra.potwierdzWyjscie())
 						{
 							gra.zapisz();
-							gra.reset();
+							gra.reset(false);
 							currentstate = GameState::Menu;
 						}
 					}
