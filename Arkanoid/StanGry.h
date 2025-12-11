@@ -14,37 +14,40 @@
 class StanGry
 {
 public:
-	StanGry(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry);
-	void capture(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry);
+	StanGry(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry, int punkty);
+	void capture(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry, int punkty);
 	bool saveToFile(const std::string& filename) const;
 	bool loadFromFile(const std::string& filename);
-	void apply(Paletka& paletka, Pilka& pilka, Bloki& nbloki, int& zyciaGry) const;
+	void apply(Paletka& paletka, Pilka& pilka, Bloki& nbloki, int& zyciaGry, int& punkty) const;
 
 	const sf::Vector2f& getPaletkaPos() const { return paletkaPos; };
 	const sf::Vector2f& getPilkaPos() const { return pilkaPos; };
 	const sf::Vector2f& getPilkaVel() const { return pilkaVel; };
 	const std::vector<BlockData>& getBloki() const { return bloki; };
-	int getZycia() const { return zycia; };
+	//int getZyciaGracza() const { return zyciaGracza; };
+
 
 private:
 	sf::Vector2f pilkaPos;
 	sf::Vector2f paletkaPos;
 	sf::Vector2f pilkaVel;
 	std::vector<BlockData> bloki;
-	int zycia;
+	int zyciaGracza;
+	int wynikGry;
 };
 
-StanGry::StanGry(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry)
+StanGry::StanGry(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry, int punkty)
 {
-	capture(paletka, pilka, blokiWek, zyciaGry);
+	capture(paletka, pilka, blokiWek, zyciaGry, punkty);
 };
 
-void StanGry::capture(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry)
+void StanGry::capture(const Paletka& paletka, const Pilka& pilka, const std::vector<Cegla>& blokiWek, int zyciaGry, int punkty)
 {
 	paletkaPos = paletka.getPos();
 	pilkaPos = pilka.getPos();
 	pilkaVel = pilka.getVelocity();
-	zycia = zyciaGry;
+	zyciaGracza = zyciaGry;
+	wynikGry = punkty;
 
 	bloki.clear();
 	bloki.reserve(blokiWek.size());
@@ -67,7 +70,8 @@ bool StanGry::saveToFile(const std::string& filename) const
 		return false;
 	file << "PALETKA " << paletkaPos.x << " " << paletkaPos.y << "\n";
 	file << "PILKA " << pilkaPos.x << " " << pilkaPos.y << " " << pilkaVel.x << " " << pilkaVel.y << "\n";
-	file << "LICZBA_ZYC " << zycia << "\n";
+	file << "LICZBA_ZYC " << zyciaGracza << "\n";
+	file << "LICZBA_PUNKTOW " << wynikGry << "\n";
 	file << "LICZBA_BLOKOW " << bloki.size() << "\n";
 
 
@@ -92,7 +96,8 @@ bool StanGry::loadFromFile(const std::string& filename)
 
 	file >> znacznik >> paletkaPos.x >> paletkaPos.y;
 	file >> znacznik >> pilkaPos.x >> pilkaPos.y >> pilkaVel.x >> pilkaVel.y;
-	file >> znacznik >> zycia;
+	file >> znacznik >> zyciaGracza;
+	file >> znacznik >> wynikGry;
 	file >> znacznik >> licznikBlokow;
 
 	bloki.clear();
@@ -107,7 +112,7 @@ bool StanGry::loadFromFile(const std::string& filename)
 	return true;
 }
 
-void StanGry::apply(Paletka& paletka, Pilka& pilka, Bloki& nbloki, int& zyciaGry) const
+void StanGry::apply(Paletka& paletka, Pilka& pilka, Bloki& nbloki, int& zyciaGry, int& punkty) const
 {
 	paletka.setPos(paletkaPos);
 	pilka.setPos(pilkaPos);
@@ -115,6 +120,7 @@ void StanGry::apply(Paletka& paletka, Pilka& pilka, Bloki& nbloki, int& zyciaGry
 
 	nbloki.odbuduj(bloki, 800.f, 600.f);
 
-	zyciaGry = zycia;
+	zyciaGry = zyciaGracza;
+	punkty = wynikGry;
 }
 

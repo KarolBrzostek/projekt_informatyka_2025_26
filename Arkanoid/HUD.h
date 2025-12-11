@@ -13,10 +13,13 @@ public:
 	void komunikatResetu();
 	void komunikatWygranej();
 
+
 	void update();
 	void draw(sf::RenderTarget& window);
 
 	void ustawZycia(int liczba);
+	void ustawPunkty(int p);
+	void ustawPauze(bool aktywna);
 
 private:
 	sf::Font font;
@@ -29,6 +32,12 @@ private:
 	sf::Texture sercePelne;
 	sf::Texture sercePuste;
 	std::vector<sf::Sprite> serca;
+
+	int punkty = 0;
+	sf::Text tekstPunktow;
+
+	sf::Text pauza;
+	bool pokazPauze = false;
 };
 
 HUD::HUD()
@@ -48,9 +57,23 @@ HUD::HUD()
 	komunikat.setFont(font);
 	komunikat.setCharacterSize(28);
 	komunikat.setStyle(sf::Text::Bold);
-	komunikat.setPosition(20.f, 20.f);
+	komunikat.setPosition(180.f, 20.f);
 	komunikat.setOutlineColor(sf::Color::Black);
 	komunikat.setOutlineThickness(2);
+
+	tekstPunktow.setFont(font);
+	tekstPunktow.setCharacterSize(24);
+	tekstPunktow.setFillColor(sf::Color::White);
+	tekstPunktow.setStyle(sf::Text::Bold);
+	tekstPunktow.setPosition(20.f, 20.f);
+	tekstPunktow.setString("Punkty: 0");
+
+	pauza.setFont(font);
+	pauza.setCharacterSize(30);
+	pauza.setFillColor(sf::Color::White);
+	pauza.setStyle(sf::Text::Bold);
+	pauza.setPosition(200.f, 200.f);
+	pauza.setString("Wyjsc do menu? \n Enter = Tak \n ESC = Anuluj");
 }
 
 void HUD::pokazKomunikat(const std::string& text, sf::Color color)
@@ -112,6 +135,8 @@ void HUD::update()
 
 void HUD::draw(sf::RenderTarget& window)
 {
+	window.draw(tekstPunktow);
+
 	for (auto& h : serca)
 	{
 		window.draw(h);
@@ -119,6 +144,15 @@ void HUD::draw(sf::RenderTarget& window)
 	if (widoczny == true)
 	{
 		window.draw(komunikat);
+	}
+
+	if (pokazPauze == true)
+	{
+		sf::RectangleShape tlo(sf::Vector2f(800.f, 600.f));
+		tlo.setFillColor(sf::Color(0, 0, 0, 150));
+
+		window.draw(tlo);
+		window.draw(pauza);
 	}
 }
 
@@ -135,4 +169,15 @@ void HUD::ustawZycia(int liczba)
 			serca[i].setTexture(sercePuste);
 		}
 	}
+}
+
+void HUD::ustawPunkty(int p)
+{
+	punkty = p;
+	tekstPunktow.setString("Punkty: " + std::to_string(punkty));
+}
+
+void HUD::ustawPauze(bool aktywna)
+{
+	pokazPauze = aktywna;
 }

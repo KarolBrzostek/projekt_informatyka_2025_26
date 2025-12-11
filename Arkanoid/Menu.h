@@ -46,7 +46,7 @@ Menu::Menu(float width, float height)
 
 	menu[2].setFont(font);
 	menu[2].setFillColor(sf::Color::White);
-	menu[2].setString("Ostatnie wyniki");
+	menu[2].setString("Najlepsze wyniki");
 	menu[2].setPosition(sf::Vector2f(width / 3, height / (MAX_LICZBA_POZIOMOW + 1) * 3));
 
 	menu[3].setFont(font);

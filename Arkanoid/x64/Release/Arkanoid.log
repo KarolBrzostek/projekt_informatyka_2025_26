@@ -16,33 +16,34 @@ C:\Users\karol\source\repos\Arkanoid\Arkanoid\Paletka.h(25,43): warning C4244:  
 C:\Users\karol\source\repos\Arkanoid\Arkanoid\Bloki.h(96,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
   (kompilowanie pliku źródłowego „main.cpp”)
   
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\HUD.h(44,28): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\HUD.h(53,28): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
   (kompilowanie pliku źródłowego „main.cpp”)
   
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(57,28): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(73,28): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
   (kompilowanie pliku źródłowego „main.cpp”)
   
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(57,17): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(73,17): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
   (kompilowanie pliku źródłowego „main.cpp”)
   
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(136,60): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(174,60): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
   (kompilowanie pliku źródłowego „main.cpp”)
   
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(136,49): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\Gra.h(174,49): warning C4244: "argument": konwersja z "const int" do "float", możliwa utrata danych
   (kompilowanie pliku źródłowego „main.cpp”)
   
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,48): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,48): warning C4244:         with
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,48): warning C4244:         [
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,48): warning C4244:             T=unsigned int
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,48): warning C4244:         ]
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,28): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,28): warning C4244:         with
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,28): warning C4244:         [
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,28): warning C4244:             T=unsigned int
-C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(20,28): warning C4244:         ]
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,48): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,48): warning C4244:         with
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,48): warning C4244:         [
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,48): warning C4244:             T=unsigned int
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,48): warning C4244:         ]
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,28): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,28): warning C4244:         with
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,28): warning C4244:         [
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,28): warning C4244:             T=unsigned int
+C:\Users\karol\source\repos\Arkanoid\Arkanoid\main.cpp(21,28): warning C4244:         ]
   Trwa generowanie kodu
-  Previous IPDB not found, fall back to full compilation.
-  All 533 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  40 of 669 functions ( 6.0%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    29 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
   Arkanoid.vcxproj -> C:\Users\karol\source\repos\Arkanoid\x64\Release\Arkanoid.exe

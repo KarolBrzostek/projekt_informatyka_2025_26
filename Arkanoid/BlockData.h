@@ -4,7 +4,8 @@ struct BlockData
 {
 	float x;
 	float y;
-	int zycia;
+	int zyciaGracza;
+	int wynikGry;
 	int hp;
 
 };

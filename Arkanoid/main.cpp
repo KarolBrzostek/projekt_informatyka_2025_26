@@ -2,6 +2,7 @@
 #include "Menu.h"
 #include "Gra.h"
 #include "StanGry.h"
+#include "Wyniki.h"
 
 enum class GameState
 {
@@ -20,6 +21,7 @@ int main()
 	Menu menu(window.getSize().x, window.getSize().y);
 
 	Gra gra;
+	Wyniki wyniki;
 	GameState currentstate = GameState::Menu;
 
 	sf::Clock dtClock;
@@ -81,11 +83,28 @@ int main()
 
 				if (event.key.code == sf::Keyboard::Escape)
 				{
-					gra.zapisz();
-					gra.reset();
-					currentstate = GameState::Menu;
+					gra.przelaczPauze();
+				}
+
+				if (event.key.code == sf::Keyboard::Enter)
+				{
+					if (gra.pytanieWyjscia())
+					{
+						if (gra.potwierdzWyjscie())
+						{
+							gra.zapisz();
+							gra.reset();
+							currentstate = GameState::Menu;
+						}
+					}
 				}
 			}
+
+			if (currentstate == GameState::Scores && event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape)
+			{
+				currentstate = GameState::Menu;
+			}
+
 		}
 
 		sf::Time dt = dtClock.restart();
@@ -93,7 +112,11 @@ int main()
 
 		if (currentstate == GameState::Playing)
 		{
-			gra.update(dt);
+			if (!gra.czyPauza())
+			{
+				gra.update(dt);
+
+			}
 		}
 
 		window.clear();
@@ -109,6 +132,8 @@ int main()
 		else if (currentstate == GameState::Scores)
 		{
 			//ekran wynikow
+			wyniki.loadFromFile("wyniki.txt");
+			wyniki.draw(window);
 		}
 
 		window.display();
